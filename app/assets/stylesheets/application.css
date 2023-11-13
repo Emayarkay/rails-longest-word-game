@@ -13,3 +13,22 @@
  *= require_tree .
  *= require_self
  */
+
+.letter_container {
+  display: flex;
+
+}
+
+ .letter {
+  height: 100px;
+  width: 100px;
+  background-color: cornflowerblue;
+  display: flex;
+  flex-direction: row;
+  margin: 5px;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 48px;
+  font-weight: bold;
+ }
